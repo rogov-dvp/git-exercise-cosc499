@@ -9,6 +9,7 @@ function feature1(arr) {
   arr.forEach(str => {
     concatString = concatString.concat(str+" ");
   });
+  console.log("I LOVE GIT");
   concatString = concatString.trim();
   return concatString;
 }
