@@ -1,6 +1,6 @@
-const feature1 = require('../main');
+const features = require('../main');
 
 test('Sort and concatenate', () => {
-  expect(feature1(["hello", "abc", "acb", "abc", "bling"]))
+  expect(features.feature1(["hello", "abc", "acb", "abc", "bling"]))
   .toBe("abc abc acb bling hello");
 });
